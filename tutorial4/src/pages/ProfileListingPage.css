@@ -1,0 +1,48 @@
+.users-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .users-title {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f0f0f0; 
+    display: inline-block; 
+    border-radius: 10px;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 60%;
+    border-radius: 20px; 
+    border: 1px solid #ccc;
+  }
+  
+  .users-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .user-card {
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s; 
+    width: 100px; 
+    text-align: center;
+  }
+  
+  .user-card:hover {
+    transform: scale(1.05); 
+    background-color: #e9ecef; 
+    border-radius: 10px;
+  }
+  
+  .user-card img {
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%; 
+    margin-bottom: 5px;
+  }
+  

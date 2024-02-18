@@ -1,6 +1,8 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
 
+// User Profile Page
+
 const ProfilePage = () => {
   const location = useLocation();
   const { firstName, lastName, email } = location.state || { firstName: ' ', lastName: ' ', email: ' ' };
