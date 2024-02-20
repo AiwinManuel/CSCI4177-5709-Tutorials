@@ -113,5 +113,5 @@ const handleFilter = (event) => {
 ```
 
 - <!---How---> The code in [ProfileListingPage.js] was implemented by...
-- <!---Why---> [medium.com](https://medium.com/@glasshost/how-to-filter-an-array-of-objects-in-react-51efa11ee49)'s Code was used because to get the undrstanding of how post requests for axioms are send.
+- <!---Why---> [medium.com](https://medium.com/@glasshost/how-to-filter-an-array-of-objects-in-react-51efa11ee49)'s Code was used because understand filtering data in react.
 
