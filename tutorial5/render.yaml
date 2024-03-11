@@ -3,7 +3,7 @@ services:
     name: app.py
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn -w 4 -b :10000 app:app
+    startCommand: python -m gunicorn -w 4 -b :10000 app:app
     envVars:
       - key: PATH
         value: $PATH:/opt/render/.local/bin
