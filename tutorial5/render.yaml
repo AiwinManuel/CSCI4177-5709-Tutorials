@@ -8,5 +8,5 @@ services:
     - key: FLASK_APP
       value: app.py
     - key: FLASK_ENV
-      value: production
+      value: production 
   region: oregon
