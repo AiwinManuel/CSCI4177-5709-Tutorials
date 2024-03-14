@@ -5,8 +5,7 @@
 * *Last Modification Date*: 11 MAR 2024
 * *T5 Lab URL*: https://git.cs.dal.ca/acmanuel/csci4177-5709-tutorials
 * *T5 Git URL*: https://github.com/AiwinManuel/CSCI4177-5709-Tutorials
-* *T5 Production domain*: 
-
+* *T5 Production domain*: https://csci4177-5709-tutorials.onrender.com
 
 
 
@@ -26,8 +25,6 @@
 
 
 ## Sources Used
-
-If in completing your lab / assignment / project you used any interpretation of someone else's code, then provide a list of where the code was implemented, how it was implemented, why it was implemented, and how it was modified. See the sections below for more details.
 
 
 ### app.py 
