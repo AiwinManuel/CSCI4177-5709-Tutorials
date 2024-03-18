@@ -17,7 +17,6 @@
 
 ## Built With
 
-* [JavaScript](https://www.javascript.com/learn/strings) - The Backend used
 
 
 
