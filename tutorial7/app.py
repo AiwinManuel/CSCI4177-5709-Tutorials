@@ -6,11 +6,11 @@ import uuid
 
 app = Flask(__name__)
 
-mongo_uri = "mongodb+srv://aiwinmanuel652:Tutorial6@tutorial6.lysax6v.mongodb.net/"
+# Use an environment variable for the MongoDB URI
+mongo_uri = os.environ.get('MONGO_URI')
 client = MongoClient(mongo_uri)
 
 db = client['user_database']
-
 users_collection = db['users']
 
 @app.route('/users', methods=['GET'])
